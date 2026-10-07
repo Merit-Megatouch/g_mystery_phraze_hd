@@ -8,6 +8,6 @@
 | Assets | /usr/local/ion_only/games/g_mystery_phraze_hd |
 | Window size | 1280x800 — from declared SUPER_HIGH_RESOLUTION |
 | Largest PNG | 1600x800 (gfx/menu/category_select/background.png) |
-| Engine libraries beyond the shared SDK | libIrrKlang.so libSDL-1.2.so.0 libaudiofile.so.0 libesd.so.0 libgame_device_irrlicht.so libgraphics_irrlicht.so libgraphics_sprite.so libinput_irrlicht.so libinput_sprite.so libkeyboard.so liblogging.so libsound_irrklang.so libsound_sprite.so libstate_manager.so libsystem_info.so  |
+| Engine libraries beyond the shared SDK | libIrrKlang.so libSDL-1.2.so.0 libaudiofile.so.0 libesd.so.0 libgame_device_irrlicht.so libgraphics_irrlicht.so libgraphics_sprite.so libinput_irrlicht.so libinput_sprite.so libkeyboard.so liblogging.so libmerit_threads.so libsettings.so libsound_irrklang.so libsound_sprite.so libstate_manager.so libsystem_info.so  |
 | Libraries not found in the cabinet | 0 (missing-libs.txt) |
-| Unresolved symbols | 26 unresolved symbol(s) (unresolved.txt) |
+| Unresolved symbols | 18 unresolved symbol(s) (unresolved.txt) |

@@ -16,15 +16,7 @@ DBFClass::OpenDBF(char const*) | g_mystery_phraze_hd.so
 DBFClass::GetRecord(int) | g_mystery_phraze_hd.so
 DBFClass::nGetField(unsigned int, char*, unsigned int, bool) | g_mystery_phraze_hd.so
 DBFClass::DBFClass() | g_mystery_phraze_hd.so
-Settings::Init() | g_mystery_phraze_hd.so
-Settings::Load() | g_mystery_phraze_hd.so
-Settings::Cleanup() | g_mystery_phraze_hd.so
-Settings::Restore(abstract_xml_record const*) | g_mystery_phraze_hd.so
-Settings::Settings(char const*, unsigned int) | g_mystery_phraze_hd.so
-Settings::~Settings() | g_mystery_phraze_hd.so
 xml_gamerandom::MystPICRAND_record::operator!=(xml_gamerandom::MystPICRAND_record const&) const | g_mystery_phraze_hd.so
-Settings::Key(unsigned int, bool) const | g_mystery_phraze_hd.so
-typeinfo for Settings | g_mystery_phraze_hd.so
 typeinfo for xml_gamerandom::MystPICRAND_record | g_mystery_phraze_hd.so
 ugetx | g_mystery_phraze_hd.so
 uwidth | g_mystery_phraze_hd.so
