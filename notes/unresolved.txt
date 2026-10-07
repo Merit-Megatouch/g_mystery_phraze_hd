@@ -2,21 +2,4 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-xml_gamerandom::MystPICRAND_record::AdjustTime(int, long) | g_mystery_phraze_hd.so
-xml_gamerandom::MystPICRAND_record::MystPICRAND_record(xml_gamerandom::MystPICRAND_record const&) | g_mystery_phraze_hd.so
-xml_gamerandom::MystPICRAND_record::MystPICRAND_record() | g_mystery_phraze_hd.so
-xml_gamerandom::MystPICRAND_record::~MystPICRAND_record() | g_mystery_phraze_hd.so
-xml_gamerandom::MystPICRAND_record::operator=(xml_gamerandom::MystPICRAND_record const&) | g_mystery_phraze_hd.so
-RandomizedArrayClass::GetNextValue(int) | g_mystery_phraze_hd.so
-RandomizedArrayClass::RandomizedArrayClass(xml_gamerandom::PICRAND_record*, int, unsigned char, unsigned short*) | g_mystery_phraze_hd.so
-RandomizedArrayClass::~RandomizedArrayClass() | g_mystery_phraze_hd.so
-DBFClass::GetNumRecords() | g_mystery_phraze_hd.so
-DBFClass::SetEncryption(bool) | g_mystery_phraze_hd.so
-DBFClass::OpenDBF(char const*) | g_mystery_phraze_hd.so
-DBFClass::GetRecord(int) | g_mystery_phraze_hd.so
-DBFClass::nGetField(unsigned int, char*, unsigned int, bool) | g_mystery_phraze_hd.so
-DBFClass::DBFClass() | g_mystery_phraze_hd.so
-xml_gamerandom::MystPICRAND_record::operator!=(xml_gamerandom::MystPICRAND_record const&) const | g_mystery_phraze_hd.so
-typeinfo for xml_gamerandom::MystPICRAND_record | g_mystery_phraze_hd.so
 ugetx | g_mystery_phraze_hd.so
-uwidth | g_mystery_phraze_hd.so

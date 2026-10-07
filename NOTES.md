@@ -1,6 +1,6 @@
 # MYST PHRAZE HD (g_mystery_phraze_hd)
 
-Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
+Status: runs (smoke-tested 2026-10-07): puzzle board, category spin, letter keyboard.
 
 ## Checklist
 - [ ] Window size in game.conf matches the largest PNG (notes/scaffold.md)
@@ -15,3 +15,5 @@ Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
 
 ## Log
 <!-- dated notes: what broke, what fixed it -->
+
+- 2026-10-07 — runs: DBFClass/RandomizedArrayClass/MystPICRAND_record from libmerit_gendef.so (preloaded), Allegro u* helpers as function pointers, empty libgame_device_irrlicht (its libpng shadowed the runtime's).
